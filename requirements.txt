@@ -1,0 +1,15 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+httpx>=0.27,<1.0
+pytest>=8.0,<9.0
+# Additional packages required only for RAG_BACKEND=local:
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+pypdf>=5.0
+docx2txt>=0.8
+transformers>=4.45
+accelerate>=1.0
+torch>=2.4
